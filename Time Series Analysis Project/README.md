@@ -11,9 +11,9 @@
   - ARIMA modeling and forecasting  
   These functions are designed for **direct reuse** in other projects.
 
-- **`Time Series Modelling Project.ipynb`**  
+- **[`Time Series Modelling Project.ipynb`](https://github.com/gbanwat/Quantitative-Finance/blob/main/Time%20Series%20Analysis%20Project/Time%20Series%20Modelling%20Project.ipynb)**  
   A Jupyter Notebook demonstrating the **practical application** of the functions defined in `tsfunct.py`.  
-  It performs a complete **time series analysis of stock data**, including:  
+  It performs a complete **time series analysis of stock data**, including:
   - Data visualization  
   - Decomposition and stationarity checks  
   - Transformation to achieve stationarity  
