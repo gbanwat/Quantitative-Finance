@@ -80,5 +80,4 @@ Visualizes:
 
 ---
 
-If you want, I can continue formatting the rest of your README (installation, usage, folder structure, screenshots).
 
