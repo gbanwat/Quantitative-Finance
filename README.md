@@ -1,83 +1,73 @@
+# 📊 Financial Data Projects
 
-# 📈 Moving Average Crossover Backtesting System
-
-🔗 **Project Notebook:**  
-https://github.com/gbanwat/Quantitative-Finance/blob/master/MA-Crossover%20Backtesting%20Engine.ipynb
-
-
-*A Python-based backtesting engine for multi-asset SMA crossover trading strategies.*
+This repository contains multiple Python-based projects for financial data analysis, cleaning, backtesting, and time series modeling.
 
 ---
 
-## 🚀 Overview
+## 1️⃣ Financial Data Cleaning Pipeline
 
-This project implements a complete **algorithmic trading backtester** using Python.
+🔗 **Project Notebook:**  
+[Financial Data Cleaning Pipeline.ipynb](https://github.com/gbanwat/Quantitative-Finance/blob/main/Financial%20Data%20Cleaning%20Pipeline/Financial%20Data%20Cleaning%20Pipeline.ipynb)
+
+### 📝 Overview
+
+The **Financial Data Cleaning Pipeline** is an essential building block for quantitative finance, algorithmic trading, and financial machine learning workflows.  
+
+Raw market data—whether from equities, forex, crypto, or derivatives—is often **messy, incomplete, noisy, or unstructured**.  
+
+This project implements a **robust and scalable data-cleaning pipeline** using **Python, pandas, and NumPy** to prepare financial datasets for:
+
+* Predictive modeling  
+* Algorithmic trading strategies  
+* Risk analytics  
+* Backtesting engines  
+
+The pipeline handles **missing values**, **outlier detection**, **normalization/scaling**, and ensures **structural validation** for high-quality inputs to downstream models.
+
+---
+
+## 2️⃣ Moving Average Crossover Backtesting System
+
+🔗 **Project Notebook:**  
+[MA-Crossover Backtesting Engine.ipynb](https://github.com/gbanwat/Quantitative-Finance/blob/master/MA-Crossover%20Backtesting%20Engine.ipynb)
+
+*A Python-based backtesting engine for multi-asset SMA crossover trading strategies.*
+
+### 🚀 Overview
+
+This project implements a complete **algorithmic trading backtester** using Python.  
 It downloads historical stock data, generates SMA crossover signals, simulates trades, computes portfolio performance metrics, and plots the equity curve.
 
 The system supports:
 
-* Multiple tickers
-* SMA50 / SMA200 crossover strategy
-* Trade signal generation (BUY/SELL)
-* Portfolio value tracking
-* Sharpe ratio, drawdowns & cumulative return
-* Automated trade logs
-* Equity curve visualization
+* Multiple tickers  
+* SMA50 / SMA200 crossover strategy  
+* Trade signal generation (BUY/SELL)  
+* Portfolio value tracking  
+* Sharpe ratio, drawdowns & cumulative return  
+* Automated trade logs  
+* Equity curve visualization  
 
 ---
 
-## 📘 Features
+## 3️⃣ Time Series Stock Analysis Project
 
-### ✔ 1. Data Download
+🔗 **Project Link:**  
+[Time Series Analysis Project](https://github.com/gbanwat/Quantitative-Finance/tree/main/Time%20Series%20Analysis%20Project)
 
-Historical stock prices are fetched using **Yahoo Finance (`yfinance`)**.
+### 📝 Overview
 
----
+This project provides a comprehensive **Python-based framework for analyzing, visualizing, and forecasting stock prices** using time series methods.  
 
-### ✔ 2. Trading Strategy — SMA Crossover
+It integrates:
 
-Uses a **Simple Moving Average (SMA)** crossover technique:
+* Data retrieval from Yahoo Finance  
+* Statistical analysis and visualization  
+* Time series decomposition (classical & STL)  
+* Stationarity tests (ADF & KPSS)  
+* Transformations to achieve stationarity  
+* ARIMA modeling, prediction, and forecasting  
 
-* **BUY** → When **SMA50** crosses above **SMA200**
-* **SELL** → When **SMA50** crosses below **SMA200**
-
----
-
-### ✔ 3. Backtesting Engine
-
-The backtester computes:
-
-* Daily holdings
-* Cash balance
-* Trade value
-* Total portfolio value
-* Net percentage return
+This framework is ideal for **quantitative finance**, **algorithmic trading**, and **financial data analysis**.
 
 ---
-
-### ✔ 4. Performance Metrics
-
-Includes:
-
-* **Sharpe Ratio**
-* **Cumulative Return**
-* **Maximum Drawdown**
-
----
-
-### ✔ 5. Trade Log
-
-Generates a clear BUY/SELL/HOLD log for all position changes.
-
----
-
-### ✔ 6. Equity Curve Plot
-
-Visualizes:
-
-* Overall portfolio value
-* Individual ticker price movements
-
----
-
-If you want, I can continue formatting the rest of your README (installation, usage, folder structure, screenshots).
