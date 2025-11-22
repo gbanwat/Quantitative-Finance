@@ -2,7 +2,8 @@
 
 ## 📂 Files
 
-- **`tsfunct.py`**  
+- **`tsfunct.py`**
+  https://github.com/gbanwat/Quantitative-Finance/blob/main/Time%20Series%20Analysis%20Project/tsfunct.py
   Contains all the core functions for time series analysis, including:  
   - Stock data fetching from Yahoo Finance  
   - Plotting stock price charts  
