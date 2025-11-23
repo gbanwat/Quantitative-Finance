@@ -1,4 +1,4 @@
-# 📊 Financial Data Projects
+# 📊 Quantitative Finance Projects
 
 This repository contains multiple Python-based projects for financial data analysis, cleaning, backtesting, and time series modeling.
 
